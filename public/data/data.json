@@ -1,0 +1,57 @@
+{
+  "en": {
+    "home": "Home",
+    "services": "Services",
+    "hotels": "Hotels",
+    "restaurants": "Restaurants",
+    "tours": "Tour Agencies",
+    "others": "Other Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "about": "About Us",
+    "explore": "Explore Now",
+    "slogan": "Get the best prices on all excursions and activities across World.",
+    "title": {
+      "dream": "Dream",
+      "explore": "Explore",
+      "discover": "Discover"
+    }
+  },
+  "gr": {
+    "home": "Αρχική",
+    "services": "Υπηρεσίες",
+    "hotels": "Ξενοδοχεία",
+    "restaurants": "Εστιατόρια",
+    "tours": "Ταξιδιωτικά Γραφεία",
+    "others": "Άλλες Υπηρεσίες",
+    "blog": "Ιστολόγιο",
+    "contact": "Επικοινωνία",
+    "about": "Σχετικά με εμάς",
+    "explore": "Ανακαλύψτε Τώρα",
+    "slogan": "Βρείτε τις καλύτερες τιμές για εκδρομές και δραστηριότητες παγκοσμίως.",
+    "title": {
+      "dream": "Όνειρο",
+      "explore": "Εξερεύνηση",
+      "discover": "Ανακάλυψη"
+    }
+  },
+  "ru": {
+    "home": "Главная",
+    "services": "Услуги",
+    "hotels": "Отели",
+    "restaurants": "Рестораны",
+    "tours": "Турфирмы",
+    "others": "Другие Услуги",
+    "blog": "Блог",
+    "contact": "Контакт",
+    "about": "О нас",
+    "explore": "Исследовать",
+    "slogan": "Получите лучшие цены на экскурсии и мероприятия по всему миру.",
+    "title": {
+      "dream": "Мечтай",
+      "explore": "Исследуй",
+      "discover": "Открой"
+    }
+  }
+}
+

@@ -16,7 +16,7 @@ export default function Slider() {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const res = await fetch('/data.json');
+        const res = await fetch('data/slider.json');
         if (!res.ok) throw new Error('Failed to load JSON');
         const data = await res.json();
         setSliderImages(data.images);
