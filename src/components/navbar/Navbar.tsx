@@ -76,7 +76,7 @@ export default function Navbar() {
               {translations.services}
             </span>
             <div
-              className={`absolute left-0 mt-0 w-52 bg-teal-800 text-white py-3 px-4 rounded shadow-xl transition-all duration-200 ease-in-out z-30 flex flex-col space-y-2 ${
+              className={`absolute left-0 mt-0 w-52 bg-[var(--mid-teal)] text-white py-3 px-4 rounded shadow-xl transition-all duration-200 ease-in-out z-30 flex flex-col space-y-2 ${
                 desktopDropdownOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
               }`}
             >
