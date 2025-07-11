@@ -5,8 +5,8 @@ import Navbar from "@/components/navbar/Navbar";
 
 const ubuntu = Ubuntu({
   subsets: ['latin'],
-  weight: ['400', '500', '700'], // choose the weights you need
-  variable: '--font-ubuntu',     // optional: to use as a CSS variable
+  weight: ['400', '500', '700'], 
+  variable: '--font-ubuntu',     
 });
 
 export const metadata: Metadata = {

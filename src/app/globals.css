@@ -4,7 +4,17 @@
   --background: #ffffff;
   --black: #3B505A;
   --mid-teal: #00695C;
-  --light-teal: #26A69A
+  --light-teal: #ccfbf1;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 
