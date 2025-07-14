@@ -1,0 +1,248 @@
+{
+  "en": [
+    {
+      "title": "Travels & Tours",
+      "description": "Discover the world's wonders with our personalized travel experiences.",
+      "href": "/services/travels-tours",
+      "icon": "🧭",
+      "providers": [
+        "Global Explorer Co.",
+        "Wanderlust Tours",
+        "Nomadic Paths",
+        "SkyHigh Adventures",
+        "Oceanic Journeys"
+      ]
+    },
+    {
+      "title": "Hotel Reservation",
+      "description": "Book the finest hotels for your comfortable stay worldwide.",
+      "href": "/services/hotel-reservation",
+      "icon": "🏨",
+      "providers": [
+        "StayWell Hotels",
+        "Royal Comfort Inns",
+        "Global Suites",
+        "City Central Hotel",
+        "Elite Stay Group"
+      ]
+    },
+    {
+      "title": "Car Rentals",
+      "description": "Flexible car rental services for any destination.",
+      "href": "/services/car-rentals",
+      "icon": "🚗",
+      "providers": [
+        "DriveNow Rentals",
+        "AutoFlex Ltd.",
+        "Zoomy Car Hire",
+        "RapidDrive Services",
+        "CityWheel Rent"
+      ]
+    },
+    {
+      "title": "Beauty Salon Booking",
+      "description": "Schedule your next beauty treatment with top-rated salons.",
+      "href": "/services/beauty-salon-booking",
+      "icon": "💇‍♀️",
+      "providers": [
+        "Luxe Beauty Lounge",
+        "Glamour Touch",
+        "Style & Shine Studio",
+        "UrbanGlow Salon",
+        "Bella Chic Spa"
+      ]
+    },
+    {
+      "title": "Tour Guide Booking",
+      "description": "Book knowledgeable local guides for unforgettable tours.",
+      "href": "/services/tour-guide-booking",
+      "icon": "🗺️",
+      "providers": [
+        "ExploreMore Guides",
+        "CityPulse Tours",
+        "Heritage Walk Co.",
+        "WanderWise",
+        "EchoTrail Guides"
+      ]
+    },
+    {
+      "title": "Restaurant Table Booking",
+      "description": "Reserve tables at top restaurants quickly and easily.",
+      "href": "/services/restaurant-booking",
+      "icon": "🍽️",
+      "providers": [
+        "Gourmet Bistro",
+        "La Tavola",
+        "The Spicy Spoon",
+        "UrbanFeast",
+        "Tandoori Table"
+      ]
+    }
+  ],
+  "gr": [
+    {
+      "title": "Ταξίδια & Περιηγήσεις",
+      "description": "Ανακαλύψτε τα θαύματα του κόσμου με εξατομικευμένες εμπειρίες ταξιδιού.",
+      "href": "/services/travels-tours",
+      "icon": "🧭",
+      "providers": [
+        "Global Explorer Co.",
+        "Wanderlust Tours",
+        "Nomadic Paths",
+        "SkyHigh Adventures",
+        "Oceanic Journeys"
+      ]
+    },
+    {
+      "title": "Κράτηση Ξενοδοχείου",
+      "description": "Κάντε κράτηση στα καλύτερα ξενοδοχεία για άνετη διαμονή παγκοσμίως.",
+      "href": "/services/hotel-reservation",
+      "icon": "🏨",
+      "providers": [
+        "StayWell Hotels",
+        "Royal Comfort Inns",
+        "Global Suites",
+        "City Central Hotel",
+        "Elite Stay Group"
+      ]
+    },
+    {
+      "title": "Ενοικίαση Αυτοκινήτων",
+      "description": "Ευέλικτες υπηρεσίες ενοικίασης αυτοκινήτων για κάθε προορισμό.",
+      "href": "/services/car-rentals",
+      "icon": "🚗",
+      "providers": [
+        "DriveNow Rentals",
+        "AutoFlex Ltd.",
+        "Zoomy Car Hire",
+        "RapidDrive Services",
+        "CityWheel Rent"
+      ]
+    },
+    {
+      "title": "Ραντεβού σε Σαλόνι Ομορφιάς",
+      "description": "Κλείστε ραντεβού για την επόμενη περιποίηση ομορφιάς σας.",
+      "href": "/services/beauty-salon-booking",
+      "icon": "💇‍♀️",
+      "providers": [
+        "Luxe Beauty Lounge",
+        "Glamour Touch",
+        "Style & Shine Studio",
+        "UrbanGlow Salon",
+        "Bella Chic Spa"
+      ]
+    },
+    {
+      "title": "Κράτηση Ξεναγού",
+      "description": "Κλείστε έμπειρους τοπικούς ξεναγούς για αξέχαστες περιηγήσεις.",
+      "href": "/services/tour-guide-booking",
+      "icon": "🗺️",
+      "providers": [
+        "ExploreMore Guides",
+        "CityPulse Tours",
+        "Heritage Walk Co.",
+        "WanderWise",
+        "EchoTrail Guides"
+      ]
+    },
+    {
+      "title": "Κράτηση Τραπεζιού",
+      "description": "Κάντε κράτηση σε κορυφαία εστιατόρια εύκολα και γρήγορα.",
+      "href": "/services/restaurant-booking",
+      "icon": "🍽️",
+      "providers": [
+        "Gourmet Bistro",
+        "La Tavola",
+        "The Spicy Spoon",
+        "UrbanFeast",
+        "Tandoori Table"
+      ]
+    }
+  ],
+  "ru": [
+    {
+      "title": "Путешествия и Туры",
+      "description": "Откройте для себя чудеса мира с нашими персональными турами.",
+      "href": "/services/travels-tours",
+      "icon": "🧭",
+      "providers": [
+        "Global Explorer Co.",
+        "Wanderlust Tours",
+        "Nomadic Paths",
+        "SkyHigh Adventures",
+        "Oceanic Journeys"
+      ]
+    },
+    {
+      "title": "Бронирование Отелей",
+      "description": "Забронируйте лучшие отели для комфортного проживания по всему миру.",
+      "href": "/services/hotel-reservation",
+      "icon": "🏨",
+      "providers": [
+        "StayWell Hotels",
+        "Royal Comfort Inns",
+        "Global Suites",
+        "City Central Hotel",
+        "Elite Stay Group"
+      ]
+    },
+    {
+      "title": "Аренда Авто",
+      "description": "Гибкий прокат автомобилей для любого направления.",
+      "href": "/services/car-rentals",
+      "icon": "🚗",
+      "providers": [
+        "DriveNow Rentals",
+        "AutoFlex Ltd.",
+        "Zoomy Car Hire",
+        "RapidDrive Services",
+        "CityWheel Rent"
+      ]
+    },
+    {
+      "title": "Запись в салон красоты",
+      "description": "Запишитесь на процедуры в лучших салонах красоты.",
+      "href": "/services/beauty-salon-booking",
+      "icon": "💇‍♀️",
+      "providers": [
+        "Luxe Beauty Lounge",
+        "Glamour Touch",
+        "Style & Shine Studio",
+        "UrbanGlow Salon",
+        "Bella Chic Spa"
+      ]
+    },
+    {
+      "title": "Заказ гида",
+      "description": "Бронируйте опытных гидов для незабываемых экскурсий.",
+      "href": "/services/tour-guide-booking",
+      "icon": "🗺️",
+      "providers": [
+        "ExploreMore Guides",
+        "CityPulse Tours",
+        "Heritage Walk Co.",
+        "WanderWise",
+        "EchoTrail Guides"
+      ]
+    },
+    {
+      "title": "Бронирование ресторана",
+      "description": "Забронируйте столик в лучших ресторанах быстро и легко.",
+      "href": "/services/restaurant-booking",
+      "icon": "🍽️",
+      "providers": [
+        "Gourmet Bistro",
+        "La Tavola",
+        "The Spicy Spoon",
+        "UrbanFeast",
+        "Tandoori Table"
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
