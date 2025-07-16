@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
+import { useSearchParams } from 'next/navigation';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
@@ -24,8 +25,31 @@ const sliderSettings = {
   ],
 };
 
+// Multilingual translations
+const translations: Record<string, { title: string; loading: string }> = {
+  en: {
+    title: 'Our Partners',
+    loading: 'Loading partners...',
+  },
+  ru: {
+    title: 'Наши партнёры',
+    loading: 'Загрузка партнёров...',
+  },
+  gr: {
+    title: 'Οι Συνεργάτες μας',
+    loading: 'Φόρτωση συνεργατών...',
+  },
+};
+
 const OurPartners: React.FC = () => {
   const [partners, setPartners] = useState<Partner[]>([]);
+  const searchParams = useSearchParams();
+
+  // Read language from ?lang=gr / ?lang=ru / ?lang=en
+  const langParam = searchParams.get('lang')?.toLowerCase();
+  const lang = ['en', 'ru', 'gr'].includes(langParam || '') ? langParam! : 'en';
+
+  const { title, loading } = translations[lang];
 
   useEffect(() => {
     const fetchLogos = async () => {
@@ -43,7 +67,9 @@ const OurPartners: React.FC = () => {
 
   return (
     <div className="w-full bg-gray-100 py-16 px-4 overflow-hidden select-none">
-      <h2 className="text-center text-2xl md:text-4xl font-semibold mb-12">Our Partners</h2>
+      <h2 className="text-center text-2xl md:text-4xl font-semibold mb-12">
+        {title}
+      </h2>
 
       {partners.length > 0 ? (
         <Slider {...sliderSettings}>
@@ -60,12 +86,13 @@ const OurPartners: React.FC = () => {
           ))}
         </Slider>
       ) : (
-        <p className="text-center text-gray-500">Loading partners...</p>
+        <p className="text-center text-gray-500">{loading}</p>
       )}
     </div>
   );
 };
 
 export default OurPartners;
+
 
 
