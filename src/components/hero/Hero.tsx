@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Slider from '@/components/slider/Slider';
+import Link from 'next/link'
 
 type TitleData = {
   dream: string;
@@ -52,7 +53,7 @@ export default function HomePage() {
           </h1>
           <p className="text-base sm:text-lg mb-6">{translations.slogan}</p>
           <button className="bg-teal-700 hover:bg-teal-800 text-white px-6 py-3 rounded-full font-semibold">
-            {translations.explore}
+            <Link href="/services" > {translations.explore} </Link>
           </button>
         </div>
 

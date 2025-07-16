@@ -1,4 +1,4 @@
-import HotelReservationClient from '@/components/HotelReservationClient';
+import HotelReservationClient from '@/components/pages/HotelReservationClient';
 
 export default function HotelReservationPage() {
   return (

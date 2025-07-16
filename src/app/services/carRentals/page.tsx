@@ -1,4 +1,4 @@
-import CarRentalsClient from '@/components/CarRentalsClient';
+import CarRentalsClient from '@/components/pages/CarRentalsClient';
 
 export default function CarRentalsPage() {
   return (

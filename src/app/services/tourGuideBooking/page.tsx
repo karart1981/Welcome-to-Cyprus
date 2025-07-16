@@ -1,4 +1,4 @@
-import TourGuideBookingClient from '@/components/TourGuideBookingClient';
+import TourGuideBookingClient from '@/components/pages/TourGuideBookingClient';
 
 export default function TourGuideBookingPage() {
   return (

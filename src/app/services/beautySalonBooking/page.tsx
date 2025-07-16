@@ -1,5 +1,4 @@
-// app/services/beautySalonBooking/page.tsx
-import BeautySalonBookingClient from '@/components/BeautySalonBookingClient';
+import BeautySalonBookingClient from '@/components/pages/BeautySalonBookingClient';
 
 export default function BeautySalonBookingPage() {
   return (

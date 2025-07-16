@@ -1,4 +1,4 @@
-import TravelsToursClient from '@/components/TravelsToursClient';
+import TravelsToursClient from '@/components/pages/TravelsToursClient';
 
 export default function TravelsToursPage() {
   return (
