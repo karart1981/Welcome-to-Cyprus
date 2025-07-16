@@ -25,7 +25,6 @@ const sliderSettings = {
   ],
 };
 
-// Multilingual translations
 const translations: Record<string, { title: string; loading: string }> = {
   en: {
     title: 'Our Partners',
@@ -45,7 +44,6 @@ const OurPartners: React.FC = () => {
   const [partners, setPartners] = useState<Partner[]>([]);
   const searchParams = useSearchParams();
 
-  // Read language from ?lang=gr / ?lang=ru / ?lang=en
   const langParam = searchParams.get('lang')?.toLowerCase();
   const lang = ['en', 'ru', 'gr'].includes(langParam || '') ? langParam! : 'en';
 
