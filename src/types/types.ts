@@ -41,9 +41,14 @@ export type ServicesData = {
   gr: Service[];
   ru: Service[];
 };
-
 export interface SliderImage {
   id: number;
   image: string;
   alt: string;
+}
+export interface NewsItem {
+  id: number;
+  image: string;
+  title: string;
+  text: string;
 }
