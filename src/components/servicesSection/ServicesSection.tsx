@@ -3,19 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-
-type Service = {
-  title: string;
-  description: string;
-  href: string;
-  icon: string;
-};
-
-type ServicesData = {
-  en: Service[];
-  gr: Service[];
-  ru: Service[];
-};
+import { Service, ServicesData } from '../../types/types';
 
 export default function ServicesSection() {
   const [services, setServices] = useState<Service[] | null>(null);

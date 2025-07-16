@@ -2,12 +2,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
-
-interface SliderImage {
-  id: number;
-  image: string;
-  alt: string;
-}
+import { SliderImage } from '../../types/types';
 
 export default function Slider() {
   const [sliderImages, setSliderImages] = useState<SliderImage[]>([]);

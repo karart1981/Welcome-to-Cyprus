@@ -3,19 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Slider from '@/components/slider/Slider';
-import Link from 'next/link'
-
-type TitleData = {
-  dream: string;
-  explore: string;
-  discover: string;
-};
-
-type PageData = {
-  explore: string;
-  slogan: string;
-  title: TitleData;
-};
+import Link from 'next/link';
+import { PageData } from '../../types/types';
 
 export default function HomePage() {
   const [translations, setTranslations] = useState<PageData | null>(null);

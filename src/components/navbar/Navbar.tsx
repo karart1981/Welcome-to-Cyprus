@@ -6,20 +6,7 @@ import { useSearchParams, usePathname } from 'next/navigation';
 import { useEffect, useState, Suspense } from 'react';
 import { FaUserCircle, FaBars, FaTimes } from 'react-icons/fa';
 import { FiGlobe } from 'react-icons/fi';
-
-type NavbarData = {
-  home: string;
-  services: string;
-  travelsTours: string;
-  hotelReservation: string;
-  carRentals: string;
-  beautySalonBooking: string;
-  tourGuideBooking: string;
-  restaurantBooking: string;
-  blog: string;
-  contact: string;
-  about: string;
-};
+import { NavbarData } from '../../types/types';
 
 function NavbarContent() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
