@@ -1,9 +1,11 @@
-import React from 'react'
+// app/services/beautySalonBooking/page.tsx
+import BeautySalonBookingClient from '@/components/BeautySalonBookingClient';
 
-const BeautySalon = () => {
+export default function BeautySalonBookingPage() {
   return (
-    <div>Beauty Salon</div>
-  )
+    <div>
+      <h1>Book Your Beauty Salon</h1>
+      <BeautySalonBookingClient />
+    </div>
+  );
 }
-
-export default BeautySalon;

@@ -1,9 +1,12 @@
-import React from 'react'
+import CarRentalsClient from '@/components/CarRentalsClient';
 
-const Cars = () => {
+export default function CarRentalsPage() {
   return (
-    <div>Cars</div>
-  )
+    <div>
+      <h1>Car Rentals</h1>
+      <CarRentalsClient />
+    </div>
+  );
 }
 
-export default Cars
+

@@ -1,9 +1,10 @@
-import React from 'react';
+import TravelsToursClient from '@/components/TravelsToursClient';
 
-const TravelsTours = () => {
+export default function TravelsToursPage() {
   return (
-    <div>Tours</div>
-  )
+    <div>
+      <h1>Travels & Tours</h1>
+      <TravelsToursClient />
+    </div>
+  );
 }
-
-export default TravelsTours;

@@ -1,9 +1,10 @@
-import React from 'react'
+import RestaurantBookingClient from '@/components/RestaurantBookingClient';
 
-const Restaurants = () => {
+export default function RestaurantBookingPage() {
   return (
-    <div>Restaurants</div>
-  )
+    <div>
+      <h1>Book a Restaurant</h1>
+      <RestaurantBookingClient />
+    </div>
+  );
 }
-
-export default Restaurants

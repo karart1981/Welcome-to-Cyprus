@@ -1,9 +1,10 @@
-import React from 'react'
+import HotelReservationClient from '@/components/HotelReservationClient';
 
-const Hotels = () => {
+export default function HotelReservationPage() {
   return (
-    <div>Hotels</div>
-  )
+    <div>
+      <h1>Hotel Reservation</h1>
+      <HotelReservationClient />
+    </div>
+  );
 }
-
-export default Hotels;

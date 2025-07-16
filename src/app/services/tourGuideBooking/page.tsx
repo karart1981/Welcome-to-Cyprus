@@ -1,9 +1,10 @@
-import React from 'react';
+import TourGuideBookingClient from '@/components/TourGuideBookingClient';
 
-const TourGuide = () => {
+export default function TourGuideBookingPage() {
   return (
-    <div>Tour Guide Booking</div>
-  )
+    <div>
+      <h1>Tour Guide Booking</h1>
+      <TourGuideBookingClient />
+    </div>
+  );
 }
-
-export default TourGuide;
