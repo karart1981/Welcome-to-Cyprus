@@ -3,13 +3,13 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Image from 'next/image';
-import { NewsItem } from '../types/types';
+import { NewsItem } from '../../types/types';
 
 export default function News() {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [language, setLanguage] = useState<'en' | 'gr' | 'ru'>('en');
   const [expandedItems, setExpandedItems] = useState<{ [key: number]: boolean }>({});
-  
+
   const searchParams = useSearchParams();
   const router = useRouter();
 
@@ -45,7 +45,7 @@ export default function News() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto p-4 select-none">
+    <div className="max-w-6xl mx-auto p-4 select-none">
       <h2 className="text-2xl font-bold mb-6 text-center">
         {language === 'gr'
           ? 'Ειδήσεις για τον Τουρισμό στην Κύπρο'
@@ -54,22 +54,25 @@ export default function News() {
           : 'Cyprus Tourism News'}
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-8 mb-6 select-none">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
         {news.slice(0, 6).map((item) => {
           const isExpanded = expandedItems[item.id];
-          const displayedText = isExpanded ? item.text : truncateText(item.text, 40);
+          const displayedText = isExpanded ? item.text : truncateText(item.text, 25);
 
           return (
-            <div key={item.id} className="bg-white rounded-xl shadow-md overflow-hidden">
+            <div
+              key={item.id}
+              className="bg-white rounded-xl shadow-md overflow-hidden w-full max-w-3xl mx-auto"
+            >
               <Image
                 src={item.image}
                 alt={item.title}
-                width={400}
-                height={200}
-                className="w-full h-48 object-cover"
+                width={800}
+                height={400}
+                className="w-full h-64 object-cover"
               />
-              <div className="p-4">
-                <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
+              <div className="p-6">
+                <h3 className="font-semibold text-xl mb-3">{item.title}</h3>
                 <p className="text-sm text-gray-700 text-justify">
                   {displayedText}
                   {!isExpanded && item.text.split(' ').length > 20 && (
@@ -79,7 +82,11 @@ export default function News() {
                         onClick={() => toggleExpanded(item.id)}
                         className="text-blue-600 hover:underline text-sm"
                       >
-                        {language === 'gr' ? 'Περισσότερα' : language === 'ru' ? 'Читать далее' : 'More'}
+                        {language === 'gr'
+                          ? 'Περισσότερα'
+                          : language === 'ru'
+                          ? 'Читать далее'
+                          : 'More'}
                       </button>
                     </>
                   )}
@@ -90,7 +97,11 @@ export default function News() {
                         onClick={() => toggleExpanded(item.id)}
                         className="text-blue-600 hover:underline text-sm"
                       >
-                        {language === 'gr' ? 'Λιγότερα' : language === 'ru' ? 'Скрыть' : 'Less'}
+                        {language === 'gr'
+                          ? 'Λιγότερα'
+                          : language === 'ru'
+                          ? 'Скрыть'
+                          : 'Less'}
                       </button>
                     </>
                   )}
@@ -104,7 +115,7 @@ export default function News() {
       <div className="text-center mt-6">
         <button
           onClick={handleShowMore}
-          className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+          className="px-6 py-2 bg-[var(--mid-teal)] text-white rounded-lg hover:bg-[var(--mid-teal-hover)] transition cursor-pointer"
         >
           {language === 'gr'
             ? 'Περισσότερα Νέα'
@@ -116,6 +127,7 @@ export default function News() {
     </div>
   );
 }
+
 
 
 
