@@ -1,17 +1,17 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { NewsItem } from '../types/types';
 
 export default function News() {
   const [news, setNews] = useState<NewsItem[]>([]);
-  const [visibleCount, setVisibleCount] = useState(6);
   const [language, setLanguage] = useState<'en' | 'gr' | 'ru'>('en');
   const [expandedItems, setExpandedItems] = useState<{ [key: number]: boolean }>({});
-
+  
   const searchParams = useSearchParams();
+  const router = useRouter();
 
   useEffect(() => {
     const langParam = searchParams.get('lang') as 'en' | 'gr' | 'ru';
@@ -28,7 +28,7 @@ export default function News() {
   }, [language]);
 
   const handleShowMore = () => {
-    setVisibleCount((prev) => prev + 6);
+    router.push(`/blog?lang=${language}`);
   };
 
   const toggleExpanded = (id: number) => {
@@ -45,7 +45,7 @@ export default function News() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto p-8 select-none">
+    <div className="max-w-5xl mx-auto p-4 select-none">
       <h2 className="text-2xl font-bold mb-6 text-center">
         {language === 'gr'
           ? 'Ειδήσεις για τον Τουρισμό στην Κύπρο'
@@ -55,7 +55,7 @@ export default function News() {
       </h2>
 
       <div className="grid md:grid-cols-3 gap-8 mb-6 select-none">
-        {news.slice(0, visibleCount).map((item) => {
+        {news.slice(0, 6).map((item) => {
           const isExpanded = expandedItems[item.id];
           const displayedText = isExpanded ? item.text : truncateText(item.text, 40);
 
@@ -101,17 +101,21 @@ export default function News() {
         })}
       </div>
 
-      {visibleCount < news.length && (
-        <div className="text-center mt-6">
-          <button
-            onClick={handleShowMore}
-            className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-          >
-            {language === 'gr' ? 'Περισσότερα Νέα' : language === 'ru' ? 'Больше новостей' : 'More News'}
-          </button>
-        </div>
-      )}
+      <div className="text-center mt-6">
+        <button
+          onClick={handleShowMore}
+          className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+        >
+          {language === 'gr'
+            ? 'Περισσότερα Νέα'
+            : language === 'ru'
+            ? 'Больше новостей'
+            : 'More News'}
+        </button>
+      </div>
     </div>
   );
 }
+
+
 

@@ -3,35 +3,41 @@
     {
       "id": 1,
       "image": "/news/news-1.jpg",
-      "title": "Tombs of the Kings",
+      "title": "Tombs of the Kings (Paphos): Rock-cut tombs dating to the Hellenistic and Roman periods.",
       "text": "The famous 'Tombs of the Kings' form part of the Archaeological Park of Kato Pafos (Paphos) - one of the most important archaeological sites of Cyprus that has been included in the UNESCO World Heritage Sites list since 1980. The monumental underground tombs are carved out of solid rock and date back to the Hellenistic and Roman periods. Rather than kings, it is actually high ranking officials and aristocracy that were buried here, but the size and splendour of the tombs – some decorated with Doric pillars – gave the locality its grand name. Some of the tombs imitate the houses of the living, with the burial chambers opening onto a peristyle atrium. They are similar to tombs found in Alexandria, demonstrating the close relations between the two cities during the Hellenistic period. The site links with the Aphrodite Cultural Route."
     },
     {
       "id": 2,
       "image": "/news/news-2.jpg",
-      "title": "Nissi Beach",
+      "title": "Nissi Beach (Ayia Napa): Famous for its crystal-clear waters and vibrant beach parties.",
       "text": "The beach stretches for 500 metres and the water is clean enough for the beach to have been awarded the blue flag designation. The beach, which runs the length of its own cove, takes its name from the small islet of Nissi (Greek: Νησί) located close to the coast. The uninhabited islet can be easily reached on foot through the shallow waters and its location provides a good shelter for the rest of the beach. The islet is covered with low-level local vegetation. Nissi Beach has become a popular destination for clubbers following live programs transmitted through BBC's Radio 1 Roadshow during the summer tourist season since 2002. Nissi Bay Beach Bar is very popular with locals and tourists alike, playing music throughout the day and organizing events such as foam parties and catwalks with guest DJs. Water sports such as water-skiing and windsurfing are available. There are also two beach volleyball courts open to the public. In 2005, archaeological excavations along the western borders of the bay revealed evidence of fire-lighting equipment dating back 12,000 years, indicating that the area could have been settled by the first humans on the island."
     },
     {
       "id": 3,
       "image": "/news/news-3.jpg",
-      "title": "Cyprus: A Timeless Island of Discovery",
-      "text": "Cyprus, the jewel of the eastern Mediterranean, offers a captivating blend of history, natural beauty, and vibrant culture. Known for its sun-soaked beaches and azure waters, the island is a haven for those seeking relaxation or adventure. From the lively coastal cities of Limassol and Larnaca to the quaint mountain villages of the Troodos range, Cyprus invites exploration at every turn. The island's rich past is etched into its landscape, with ancient ruins in Kourion, Byzantine monasteries, and Venetian fortresses standing as reminders of its diverse heritage. In Nicosia, the last divided capital in Europe, tradition meets modernity with bustling markets and contemporary art galleries coexisting in harmony. Food lovers will delight in the island’s cuisine—an irresistible fusion of Greek, Turkish, and Middle Eastern flavors. Whether it's freshly grilled halloumi, a meze feast, or sweet loukoumades, every bite tells a story. With over 300 days of sunshine a year, friendly locals, and countless cultural festivals, Cyprus is more than just a travel destination—it’s an experience that stays with you. Whether you're visiting for the beaches, history, or simply the Mediterranean lifestyle, Cyprus promises a journey like no other."
+      "title": "Fig Tree Bay (Protaras): Ideal for families and water sports.",
+      "text": "Fig Tree Bay is one of the most famous beaches in Cyprus, located in the resort town of Protaras. Renowned for its crystal-clear turquoise waters and fine golden sand, it offers an idyllic setting for relaxation and water sports. The bay is named after the solitary fig tree that has stood by the beach since the 17th century. Visitors can enjoy swimming, snorkeling, and exploring a small nearby islet accessible by a short swim. With its Blue Flag status, Fig Tree Bay guarantees cleanliness and safety, making it perfect for families. Its vibrant promenade also features cafes, restaurants, and shops."
     },
     {
       "id": 4,
       "image": "/news/news-4.jpg",
-      "title": "Cyprus Festivals: A Celebration of Culture and Tradition",
-      "text": "Cyprus is renowned for its vibrant festivals that showcase the island’s rich cultural heritage. Throughout the year, locals and visitors come together to celebrate traditional music, dance, and cuisine. Events like the Limassol Carnival, the Wine Festival in the Troodos Mountains, and the Kataklysmos (Flood Festival) attract thousands of participants eager to experience Cypriot hospitality and festive spirit. These celebrations not only preserve ancient customs but also bring communities closer, offering unforgettable memories for all who attend."
+      "title": "Kourion Archaeological Site: Ancient Greco-Roman theatre and ruins.",
+      "text": "The Kourion Archaeological Site in Cyprus is a remarkable testament to the island's ancient Greco-Roman history. Perched on a cliff overlooking the Mediterranean Sea, Kourion is renowned for its beautifully preserved theatre, originally built in the 2nd century BC and later expanded by the Romans. This ancient theatre, still used for performances today, offers stunning views and exceptional acoustics. The site also features extensive ruins, including grand villas with intricate mosaics, public baths, and the remains of early Christian basilicas. Walking through Kourion, visitors experience a vivid glimpse into the past, where history, culture, and breathtaking scenery blend seamlessly."
     },
     {
       "id": 5,
       "image": "/news/news-5.jpg",
-      "title": "Cyprus Festivals: A Celebration of Culture and Tradition",
-      "text": "Cyprus is renowned for its vibrant festivals that showcase the island’s rich cultural heritage. Throughout the year, locals and visitors come together to celebrate traditional music, dance, and cuisine. Events like the Limassol Carnival, the Wine Festival in the Troodos Mountains, and the Kataklysmos (Flood Festival) attract thousands of participants eager to experience Cypriot hospitality and festive spirit. These celebrations not only preserve ancient customs but also bring communities closer, offering unforgettable memories for all who attend."
+      "title": "Paphos Archaeological Park: UNESCO World Heritage Site with mosaics and ancient tombs.",
+      "text": "Paphos Archaeological Park, a UNESCO World Heritage Site, is one of Cyprus’s most important historical treasures. Located near the harbor of Paphos, the park showcases an impressive collection of ancient ruins dating back to the Roman period. Visitors can admire the stunning mosaics in the Houses of Dionysos, Theseus, and Aion, which depict vibrant scenes from Greek mythology. The site also includes the grand Odeon theatre, the Agora, and the mysterious Tombs of the Kings, carved into rock and dating to the Hellenistic period. This remarkable park offers a fascinating journey through Cyprus's rich cultural and archaeological heritage."
     },
     {
       "id": 6,
+      "image": "/news/news-6.jpg",
+      "title": "Wine Villages (Krasochoria): Traditional villages with wineries, especially in Limassol District.",
+      "text": "The Wine Villages, known as Krasochoria, are a collection of traditional villages nestled in the Limassol District of Cyprus. These charming settlements are famous for their centuries-old winemaking traditions, producing some of the island’s finest wines. Visitors can explore narrow stone-paved streets, admire preserved architecture, and visit family-run wineries where local varieties like Commandaria and Xynisteri are crafted. The villages, including Omodos and Lofou, offer authentic Cypriot hospitality, traditional taverns, and scenic views of vineyards and hills. A visit to Krasochoria provides a delightful blend of culture, history, and the rich flavors of Cyprus’s renowned wine heritage."
+    },
+    {
+      "id": 7,
       "image": "/news/news-6.jpg",
       "title": "Cyprus Festivals: A Celebration of Culture and Tradition",
       "text": "Cyprus is renowned for its vibrant festivals that showcase the island’s rich cultural heritage. Throughout the year, locals and visitors come together to celebrate traditional music, dance, and cuisine. Events like the Limassol Carnival, the Wine Festival in the Troodos Mountains, and the Kataklysmos (Flood Festival) attract thousands of participants eager to experience Cypriot hospitality and festive spirit. These celebrations not only preserve ancient customs but also bring communities closer, offering unforgettable memories for all who attend."
