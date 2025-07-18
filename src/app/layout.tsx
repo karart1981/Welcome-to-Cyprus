@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Ubuntu } from 'next/font/google';
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
+import BackToTopButton from "@/components/backToTop/BackToTop";
 
 const ubuntu = Ubuntu({
   subsets: ['latin'],
@@ -29,6 +30,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <BackToTopButton />
       </body>
     </html>
   );
