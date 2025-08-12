@@ -1,9 +1,8 @@
-// components/AboutUsClient.tsx
 'use client';
 
 import { motion } from 'framer-motion';
 
-type AboutTranslations = {
+export type AboutTranslations = {
   title: string;
   subtitle: string;
   paragraphs: string[];
@@ -11,11 +10,11 @@ type AboutTranslations = {
   mission: string;
 };
 
-export default function AboutUsClient({
-  content
-}: {
+type Props = {
   content: AboutTranslations;
-}) {
+};
+
+export default function AboutUsClient({ content }: Props) {
   return (
     <section className="relative w-full h-screen flex items-center justify-center overflow-hidden text-white">
       {/* Background Video */}
@@ -50,4 +49,7 @@ export default function AboutUsClient({
     </section>
   );
 }
+
+
+
 
